@@ -1,0 +1,124 @@
+.root {
+    -fx-background-color: #000000;
+}
+
+.button {
+    -fx-background-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: #343434;
+    -fx-background-radius: 30px;
+}
+
+.label {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 20;
+    -fx-text-fill: #dedede;
+}
+
+#proPicIMG {
+    -fx-image: url(../media/user.png);
+}
+
+#userNameLabel {
+    -fx-font-size: 20;
+}
+
+#statusLabel {
+    -fx-text-fill: #7c7c7c;
+    -fx-font-size: 15px;
+}
+
+#audioCallIMG {
+    -fx-image: url(../media/phone.png);
+}
+
+
+#videoCallIMG {
+    -fx-image: url(../media/video-camera.png);
+}
+
+
+#imgUploadIMG {
+    -fx-image: url(../media/video-camera.png);
+}
+
+
+#sendIMG {
+    -fx-image: url(../media/right-arrow.png);
+}
+
+
+#voiceChatIMG {
+    -fx-image: url(../media/audio.png);
+}
+
+#inputHBox {
+    -fx-background-color: #343434;
+    -fx-background-radius: 20px;
+}
+
+.text-area {
+    -fx-background-color: transparent;
+    -fx-text-fill: #dedede;
+    -fx-alignment: center;
+    -fx-font-size: 15;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+}
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+}
+
+.list-view {
+    -fx-background-color: transparent;
+    -fx-background-radius: 10px;
+}
+
+.list-view .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.list-view .scroll-bar .thumb {
+    -fx-background-color: transparent;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+}
+
+.message {
+    -fx-background-color: #e1625c;
+    -fx-text-fill: #dedede;
+    -fx-font-size: 17;
+    -fx-padding: 5px;
+    -fx-background-radius: 5px;
+}
+
+.right-message {
+    -fx-alignment: center-right;
+}
+
+.left-message {
+    -fx-alignment: center-left;
+}
+
+
+
+
+
+
+
+
+
+
